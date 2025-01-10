@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Road Trip Cost Estimation</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #e67e22;
+            font-size: 2.5em;
+            margin-bottom: 0;
+            padding: 10px;
+            background-color: #34495e;
+            color: white;
+            border-radius: 8px;
+            text-transform: uppercase;
+        }
+        h2 {
+            color: #f39c12;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 15px;
+            background-color: #ecf0f1;
+            border-radius: 8px;
+            border-left: 5px solid #e67e22;
+        }
+        .section p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        .section ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        .section li {
+            margin: 10px 0;
+        }
+        .cost {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #e74c3c;
+        }
+        .total-cost {
+            font-size: 1.4em;
+            color: #2ecc71;
+            font-weight: bold;
+        }
+        .icon {
+            font-size: 2em;
+            color: #e67e22;
+            vertical-align: middle;
+        }
+        .icon-small {
+            font-size: 1.5em;
+            color: #f39c12;
+        }
+        .road-sign {
+            text-align: center;
+            font-size: 1.8em;
+            background-color: #f39c12;
+            padding: 10px;
+            border-radius: 12px;
+            color: white;
+        }
+        /* Watermark Styles */
+        .watermark {
+            position: fixed;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 1.1em;
+            color: rgba(0, 0, 0, 0.2); /* Transparent black */
+            font-weight: bold;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1><span class="icon">🚗</span> Road Trip Cost Estimation <span class="icon">🏕️</span></h1>
+
+    <div class="section">
+        <h2><span class="icon-small">⛽</span> Distance and Fuel</h2>
+        <p><strong>Total Distance:</strong> Approximately 1,000-1,100 miles depending on the exact route.</p>
+        <p><strong>Fuel Cost:</strong></p>
+        <ul>
+            <li>Average gas price: $3.50 per gallon (this can vary depending on location).</li>
+            <li> 2017 kia soul fuel efficiency: 25 miles per gallon.</li>
+            <li>Total gallons required: 1,100 miles ÷ 25 mpg = <strong>44 gallons</strong>.</li>
+            <li>Total fuel cost: 44 gallons × $3.50 = <span class="cost">$154</span>.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2><span class="icon-small">🍔</span> Food</h2>
+        <p><strong>Food for the Trip:</strong></p>
+        <ul>
+            <li>Assume three meals a day, with average meals costing around $10-$15 per person.</li>
+            <li>Estimated cost per day: $30–$45 for one person.</li>
+            <li>For a 3-4 day trip, total food cost could range from <span class="cost">$90</span> to <span class="cost">$180</span>.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2><span class="icon-small">🛏️</span> Lodging</h2>
+        <p><strong>Hotels:</strong></p>
+        <ul>
+            <li>Average hotel prices range from $70–$150 per night for budget to mid-range accommodations.</li>
+            <li>Assuming 3 nights on the road, lodging could cost around <span class="cost">$210</span> to <span class="cost">$450</span>.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2><span class="icon-small">🎢</span> Attractions and Sightseeing</h2>
+        <p><strong>Attractions:</strong></p>
+        <ul>
+            <li>You could visit landmarks in each city (e.g., Indianapolis Motor Speedway, Cincinnati Zoo, Nashville’s Country Music Hall of Fame, Little Rock Central High School National Historic Site).</li>
+            <li>Budget for admission fees and activities: $10–$30 per attraction.</li>
+            <li>Estimated cost for sightseeing might be around <span class="cost">$50</span> to <span class="cost">$100</span>.</li>
+        </ul>
+    </div>
+
+    <div class="road-sign">
+        <h2>Total Estimated Cost</h2>
+        <p>Fuel: $154</p>
+        <p>Food: $90 to $180</p>
+        <p>Lodging: $210 to $450</p>
+        <p>Attractions: $50 to $100</p>
+        <p><strong>Total range: $504 to $884</strong></p>
+    </div>
+
+    <!-- Watermark -->
+    <div class="watermark">
+        Made by Natalie Yarborough
+    </div>
+</body>
+</html>

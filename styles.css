@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f8f4;
+    color: #333;
+  }
+  
+  header {
+    text-align: center;
+    background: url('https://source.unsplash.com/1600x900/?roadtrip') no-repeat center center/cover;
+    padding: 4rem 2rem;
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 3.5rem;
+    color: #f56a79;
+  }
+  
+  header p {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-top: 0.5rem;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+  
+  .day {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .day h2 {
+    font-size: 2rem;
+    color: #f56a79;
+    margin-top: 0;
+  }
+  
+  .day p {
+    margin: 0.5rem 0;
+  }
+  
+  .day ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .day ul li {
+    background: #f7d59c;
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #f56a79;
+    color: white;
+    font-size: 1.2rem;
+    border-top: 3px solid #fff;
+  }
+
+  
